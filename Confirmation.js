@@ -11,7 +11,7 @@ const Confirmation = ({ details, onBack }) => {
   >
           <Text style={styles.title}>Event Registartion Form</Text>
 
-    <View style={styles.container}>
+    <View style={styles.container} testID='confirmationDetails'>
       
     </View>
     </ImageBackground>

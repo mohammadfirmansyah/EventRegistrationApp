@@ -3,10 +3,7 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet, Picker, Alert, ImageBackground,TouchableOpacity  } from 'react-native';
 
 const RegistrationForm = ({ onConfirm }) => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
-  const [event, setEvent] = useState('Select an event');
+
 
   
 
@@ -18,7 +15,7 @@ const RegistrationForm = ({ onConfirm }) => {
     >
       <Text style={styles.title}>Event Registartion Form</Text>
 
-      <View style={styles.container}>
+      <View style={styles.container} testID='registrationFormDetails'>
 
         
       </View>
