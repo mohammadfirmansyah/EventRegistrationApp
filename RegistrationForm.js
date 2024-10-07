@@ -13,7 +13,7 @@ const RegistrationForm = ({ onConfirm }) => {
       style={styles.background}
       blurRadius={5} 
     >
-      <Text style={styles.title}>Event Registartion Form</Text>
+      <Text style={styles.title}>Event Registration Form</Text>
 
       <View style={styles.container} testID='registrationFormDetails'>
 
