@@ -9,7 +9,7 @@ const Confirmation = ({ details, onBack }) => {
     style={style1.background}
     blurRadius={5} 
   >
-          <Text style={styles.title}>Event Registartion Form</Text>
+          <Text style={styles.title}>Event Registration Form</Text>
 
     <View style={styles.container} testID='confirmationDetails'>
       
