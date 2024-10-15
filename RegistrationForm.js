@@ -1,6 +1,7 @@
 // RegistrationForm.js
 import React, { useState } from 'react';
-import { View, Text, TextInput, Button, StyleSheet, Picker, Alert, ImageBackground,TouchableOpacity  } from 'react-native';
+import { Picker } from '@react-native-picker/picker';
+import { View, Text, TextInput, Button, StyleSheet, Alert, ImageBackground,TouchableOpacity  } from 'react-native';
 
 const RegistrationForm = ({ onConfirm }) => {
 
