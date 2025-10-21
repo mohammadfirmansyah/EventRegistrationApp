@@ -12,8 +12,15 @@ const Confirmation = ({ details, onBack }) => {
           <Text style={styles.title}>Event Registration Form</Text>
 
     <View style={styles.container} testID='confirmationDetails'>
-      
+      <Text style={styles.title} testID="confirmText">Confirmation</Text>
+      <Text style={styles.detail}>Name: {details.name}</Text>
+      <Text style={styles.detail}>Email: {details.email}</Text>
+      <Text style={styles.detail}>Phone: {details.phone}</Text>
+      <Text style={styles.detail}>Event: {details.event}</Text>
     </View>
+    <TouchableOpacity style={styles.button} onPress={onBack}>
+      <Text style={styles.buttonText}>Back</Text>
+    </TouchableOpacity>
     </ImageBackground>
   );
 
